@@ -1,3 +1,22 @@
+header
+   background-image: url("../images/banner1920.jpg")
+
+header
+   text-align: center
+
+header a
+   color: rgb(0, 0, 0)
+   text-decoration: none
+
+header ul
+   padding-left: 0
+
+header li + li
+   border-left: 1px solid rgb(0,0,0)
+
+h1
+   margin-top: 0%
+
 #main-parallax
    background-image: url("../images/surfing1920.jpg")
 
@@ -14,9 +33,52 @@
    background-repeat: no-repeat
    background-size: cover
 
-.content-container
-   height: 500px
-   background-color: red
-   
+h2
+   margin-left: 1%
+
+.container p
+   text-align: center
+   margin: auto
+   width: 90%
+
+.container p + p
+   margin-top: 2%
+   margin-bottom: 2%
+
+#todo-container
+   text-align: center
+   margin-bottom: 2%
+
+.todo
+   display: inline-block
+   width: 200px
+   background-color:  #f1b10e
+
+.todo + .todo
+   margin-top: 2%
+
+.todo img
+   width: 200px
+
 ul
    list-style: none
+   margin-bottom: 0%
+li
+   display: inline-block
+
+form
+   display: inline-block
+   text-align: center
+
+nav
+   text-align: center
+
+@media (min-width: 700px)
+   header li
+      padding-left: 10px
+
+   header li + li
+      margin-left: 2%
+
+   .text-container
+      text-align: center

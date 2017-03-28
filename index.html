@@ -13,20 +13,21 @@
      <h1> Visit Australia</h1>
      <nav role="navigation">
        <ul>
-         <li><a href="">Home</a></li>
-         <li><a href=""></a></li>
-         <li><a href=""></a></li>
-         <li><a href=""></a></li>
+         <li><a href="#">Home</a></li>
+         <li><a href="#aboutus">About us</a></li>
+         <li><a href="#attractions">Attractions</a></li>
+         <li><a href="#contactus">Contact Us</a></li>
        </ul>
      </nav>
    </header>
    <main>
      <section class="parallax" id="main-parallax">
      </section>
-     <section class="content-container">
+     <section class="content-container" id="aboutus">
        <div class="container">
+          <h2>About Us....</h2>
           <p>
-          dolor sit amet, consectetur adipiscing elit. Praesent bibendum, lectus quis ornare lobortis, libero velit dignissim lorem, ac fermentum arcu sapien in eros. Vestibulum eget leo id lorem sollicitudin accumsan sit amet eu velit. Proin ac nisi malesuada
+          Dolor sit amet, consectetur adipiscing elit. Praesent bibendum, lectus quis ornare lobortis, libero velit dignissim lorem, ac fermentum arcu sapien in eros. Vestibulum eget leo id lorem sollicitudin accumsan sit amet eu velit. Proin ac nisi malesuada
           orci rhoncus laoreet. Nam in ornare tortor. Praesent feugiat, purus sit amet dictum porta, nisl lacus finibus sem, sed suscipit ipsum lorem tristique tellus. Praesent eget erat molestie ligula sodales tristique vel pharetra ligula. Fusce eu
           vulputate nibh. Fusce accumsan viverra magna sit amet auctor. Praesent pellentesque ultrices nunc sed posuere. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nullam fermentum convallis velit, id elementum
           tellus hendrerit sit amet.
@@ -41,20 +42,42 @@
      </section>
      <section class="parallax" id="second-parallax">
      </section>
-     <section class="content-container">
-       <div>
-       </div>
-       <div>
-       </div>
-       <div>
+     <section class="content-container" id="attractions">
+       <h2>Attractions</h2>
+       <div id="todo-container">
+         <div id="nightLife" class="todo">
+           <h3>Night Life</h3>
+           <img src="images/darling-harbour-640.jpg" title=""/>
+           <p>Donec accumsan risus lacinia purus hendrerit, ut placerat lorem mollis. Donec volutpat libero ac nulla auctor, ac placerat ligula iaculis. Nullam hendrerit dolor sit amet orci consequat, ac laoreet mi hendrerit. Proin interdum arcu vitae viverra suscipit.</p>
+         </div>
+         <div id="adventure" class="todo">
+           <h3>Adventure</h3>
+           <img src="images/river640.jpg" title="" />
+           <p>Donec accumsan risus lacinia purus hendrerit, ut placerat lorem mollis. Donec volutpat libero ac nulla auctor, ac placerat ligula iaculis. Nullam hendrerit dolor sit amet orci consequat, ac laoreet mi hendrerit. Proin interdum arcu vitae viverra suscipit.</p>
+         </div>
+         <div id="culture" class="todo">
+           <h3>Culture</h3>
+           <img src="images/sydney640.jpg" title="" />
+           <p>Donec accumsan risus lacinia purus hendrerit, ut placerat lorem mollis. Donec volutpat libero ac nulla auctor, ac placerat ligula iaculis. Nullam hendrerit dolor sit amet orci consequat, ac laoreet mi hendrerit. Proin interdum arcu vitae viverra suscipit.</p>
+         </div>
+         <div id="events" class="todo">
+           <h3>Events</h3>
+           <img src="images/luna-park-640.jpg" title="" />
+           <p>Donec accumsan risus lacinia purus hendrerit, ut placerat lorem mollis. Donec volutpat libero ac nulla auctor, ac placerat ligula iaculis. Nullam hendrerit dolor sit amet orci consequat, ac laoreet mi hendrerit. Proin interdum arcu vitae viverra suscipit.</p>
+         </div>
        </div>
      </section>
      <section class="parallax" id="third-parallax">
      </section>
-     <section class="content-container">
+     <section class="content-container" id="contactus">
+       <h2>Contact Us...</h2>
        <div class="text-container">
-         <p>
-         </p>
+         <form action="#" method="#">
+           <label for="useremail">Email:
+             <input type="email" name="useremail" id="useremail" placeholder="email@email.com" />
+           </label>
+           <input type="submit" value="Request Info"/>
+         </form>
        </div>
      </section>
    </main>
