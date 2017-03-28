@@ -1,0 +1,24 @@
+#main-parallax {
+  background-image: url("../images/surfing1920.jpg"); }
+
+#second-parallax {
+  background-image: url("../images/koala1920.jpg"); }
+
+#third-parallax {
+  background-image: url("../images/milsons1920.jpg"); }
+
+.parallax {
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.content-container {
+  height: 500px;
+  background-color: red; }
+
+ul {
+  list-style: none; }
+
+/*# sourceMappingURL=styles.css.map */
