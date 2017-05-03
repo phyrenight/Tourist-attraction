@@ -1,22 +1,16 @@
 header {
   background-image: url("../images/banner1920.jpg");
-  background-size: cover; }
-
-header {
+  background-size: cover;
   text-align: center; }
-
-header a {
-  color: black;
-  text-decoration: none; }
-
-header ul {
-  padding-left: 0; }
-
-header li + li {
-  border-left: 1px solid black; }
-
-h1 {
-  margin-top: 0%; }
+  header a {
+    color: black;
+    text-decoration: none; }
+  header ul {
+    padding-left: 0; }
+  header li + li {
+    border-left: 1px solid black; }
+  header h1 {
+    margin-top: 0%; }
 
 #main-parallax {
   background-image: url("../images/surfing1920.jpg"); }
@@ -78,9 +72,8 @@ nav {
 @media (min-width: 700px) {
   header li {
     padding-left: 10px; }
-
-  header li + li {
-    margin-left: 2%; }
+    header li li + li {
+      margin-left: 2%; }
 
   .text-container {
     text-align: center; } }
