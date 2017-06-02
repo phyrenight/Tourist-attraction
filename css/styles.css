@@ -28,7 +28,8 @@ header {
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover; }
+  background-size: cover;
+  box-shadow: inset 0px 0px 100px #000, inset 0px 0px 100px #000; }
 
 h2 {
   margin-left: 1%; }
